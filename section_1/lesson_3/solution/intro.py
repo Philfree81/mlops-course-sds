@@ -8,7 +8,7 @@
 import wandb
 
 # Step 3: Initialize a new W&B run
-wandb.init(project="my-first-wandb-project")
+wandb.init(project="first-project-ML-course")
 
 # Step 4: Log a sample metric
 wandb.log({"accuracy": 0.9})
